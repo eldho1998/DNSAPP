@@ -12,5 +12,5 @@ app.use(cors());
 app.use(routes);
 
 app.listen(process.env.PORT, () => {
-  console.log('http:localhost:${process.env.PORT}');
+  console.log(`http://localhost:${process.env.PORT}`);
 });

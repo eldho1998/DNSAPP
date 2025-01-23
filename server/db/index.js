@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose
-  .connect('mongodb://localhost:27017:APPName')
+  .connect('mongodb://localhost:27017/DNSAPP')
   .then(() => {
     console.log('DB Connected');
   })
